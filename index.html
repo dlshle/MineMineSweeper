@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Minecraft is awesome, so does Minesweeper!
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>	
+		<header>
+			<h1>Minesweeper</h1>
+			<a href="#" onclick="game.newGame(0)">Easy</a>
+			<a href="#" onclick="game.newGame(1)">Intermidiate</a>
+			<a href="#" onclick="game.newGame(2)">Expert</a>
+			<h2>
+				<span id="ban">Mines:&nbsp;&nbsp;Flags:</span>
+			</h2>
+		</header>
+		<table id="board"></table>
+		<div id="test"></div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
